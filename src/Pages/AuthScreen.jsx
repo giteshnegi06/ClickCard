@@ -57,7 +57,7 @@ function AuthScreen() {
                 <div className="grow border-t border-gray-300 my-4"></div>
               </div>
               <div className="flex-col justify-center items-center text-center gap-4 mt-5">
-                <button onClick={() => navigate('/home')} className="w-full bg-gray-200 text-gray-700 py-2 rounded-2xl hover:bg-gray-300 transition duration-200">
+                <button onClick={() => navigate('/')} className="w-full bg-gray-200 text-gray-700 py-2 rounded-2xl hover:bg-gray-300 transition duration-200">
                   <Sparkles className="inline w-5 mr-2" />
                   Access with Demo Account
                 </button>

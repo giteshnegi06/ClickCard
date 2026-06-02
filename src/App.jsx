@@ -15,8 +15,8 @@ export default function App() {
       <div>
         {/* <NavBar /> */}
         <Routes>
-          <Route path="/auth" element={<AuthScreen />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/login" element={<AuthScreen />} />
+          <Route path="/" element={<Home />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/profile" element={<Profile />} />
