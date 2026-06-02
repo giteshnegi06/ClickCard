@@ -24,7 +24,7 @@ const NavBar = () => {
                     <button
                         onClick={() => {
                             setIsLoggedIn(false)
-                            navigate('/login')
+                            navigate('/')
                         }}
                         className="flex items-center justify-center mx-2 text-secondary rounded-lg">
                         <LogOut className="w-5 h-5" />

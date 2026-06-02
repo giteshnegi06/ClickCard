@@ -8,7 +8,7 @@ const Menu = () => {
     const location = useLocation()
     const [activeItem, setActiveItem] = React.useState(location.pathname)
     const navItems = [
-        { name: 'Home', path: '/', Icon: House },
+        { name: 'Home', path: '/home', Icon: House },
         { name: 'Contacts', path: '/contacts', Icon: Users },
         { name: 'Analytics', path: '/analytics', Icon: Activity },
         { name: 'Profile', path: '/profile', Icon: User },
