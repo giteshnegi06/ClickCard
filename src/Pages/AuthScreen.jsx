@@ -51,12 +51,12 @@ function AuthScreen() {
                 Don't have an account? <button onClick={() => setAuthMode(authModes.SignUp)}><span className="text-sm text-text hover:underline">Sign Up</span></button>
               </p>
 
-              <div className="flex justify-center items-center mt-6">
+              <div className="flex justify-center items-center mt-5">
                 <div className="grow border-t border-gray-300 my-4"></div>
-                <span className=" text-sm text-zinc-500 mx-4">OR USE</span>
+                <span className=" text-sm text-zinc-500 mx-4">OR</span>
                 <div className="grow border-t border-gray-300 my-4"></div>
               </div>
-              <div className="flex-col justify-center items-center text-center gap-4 mt-6">
+              <div className="flex-col justify-center items-center text-center gap-4 mt-5">
                 <button onClick={() => navigate('/home')} className="w-full bg-gray-200 text-gray-700 py-2 rounded-2xl hover:bg-gray-300 transition duration-200">
                   <Sparkles className="inline w-5 mr-2" />
                   Access with Demo Account
