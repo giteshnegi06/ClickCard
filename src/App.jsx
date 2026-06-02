@@ -25,7 +25,7 @@ function Layout() {
 
       {!hideLayout && <NavBar />}
 
-      <main className={`${!hideLayout ? 'pb-28 pt-2' : ''}`}>
+      <main className={`${!hideLayout ? 'top-0 bottom-0' : ''}`}>
 
         <Routes>
 

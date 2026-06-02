@@ -5,11 +5,11 @@ import { ShieldCheck, LogOut } from 'lucide-react';
 
 const NavBar = () => {
 
-        const [isLoggedIn, setIsLoggedIn] = useState(true)
-        const navigate = useNavigate()
+    const [isLoggedIn, setIsLoggedIn] = useState(true)
+    const navigate = useNavigate()
     return (
-        <div>
-            <nav className="flex items-center justify-between p-2 bg-primary text-center shadow-sm border-b border-gray-300">
+        <header className="fixed top-0 left-0 right-0 z-50 ">
+            <nav className="flex items-center justify-between p-2 md:px-6 bg-primary text-center shadow-sm border-b border-gray-300">
                 <div className="text-center flex items-center justify-center allign-middle gap-2">
                     <div className="flex items-center justify-center p-1 bg-zinc-950 text-white rounded-lg ">
                         <ShieldCheck className="w-4 h-4 text-zinc-300" />
@@ -31,7 +31,7 @@ const NavBar = () => {
                     </button>
                 </div>
             </nav>
-        </div>
+        </header>
     )
 }
 
