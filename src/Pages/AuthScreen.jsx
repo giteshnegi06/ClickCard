@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-// import { link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
-import Logo from './Logo'
+import Logo from '../Components/Logo'
 import { Mail, Lock, ArrowRight, Sparkles, User, Phone } from 'lucide-react'
 
 function AuthScreen() {
@@ -9,6 +9,8 @@ function AuthScreen() {
   const authModes = { logIn: 'logIn', SignUp: 'SignUp', ForgotPassword: 'ForgotPassword' }
 
   const [authMode, setAuthMode] = useState(authModes.logIn)
+
+  const navigate = useNavigate()
 
   return (
     <div className='auth-screen '>
@@ -55,7 +57,7 @@ function AuthScreen() {
                 <div className="grow border-t border-gray-300 my-4"></div>
               </div>
               <div className="flex-col justify-center items-center text-center gap-4 mt-6">
-                <button className="w-full bg-gray-200 text-gray-700 py-2 rounded-2xl hover:bg-gray-300 transition duration-200">
+                <button onClick={() => navigate('/home')} className="w-full bg-gray-200 text-gray-700 py-2 rounded-2xl hover:bg-gray-300 transition duration-200">
                   <Sparkles className="inline w-5 mr-2" />
                   Access with Demo Account
                 </button>
