@@ -16,8 +16,8 @@ const Menu = () => {
 
     return (
         <div>
-            <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2">
-                <ul className="flex gap-3 md:gap-8 bg-text px-3 md:px-4 py-2 rounded-3xl shadow-xl">
+            <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 max-w-md w-full mx-auto px-4">
+                <ul className="flex justify-between  bg-zinc-900 px-3 md:px-4 py-2 rounded-3xl shadow-xl">
                     {navItems.map((item) => (
                             
                         <li key={item.path}
