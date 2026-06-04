@@ -20,6 +20,13 @@ const NavBar = () => {
                         </h1>
                     </div>
                 </div>
+                <div className='hidden md:flex text-center items-center space-x-1.5 bg-zinc-50 border border-zinc-200 p-1 px-3 rounded-full text-[11px] text-zinc-500 font-medium font-sans'>
+                    <span className='h-2 w-2 flex relative'>
+                        <span className="inline-flex animate-ping absolute h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span className='relative inline-flex rounded-full h-2 w-2 bg-emerald-500'></span>
+                    </span>
+                        <span>Workspace Session Active</span>
+                </div>
                 <div>
                     <button
                         onClick={() => {
