@@ -47,7 +47,7 @@ const Contacts = () => {
   
 
   return (
-    <div className='min-h-screen bg-background'>
+    <div className='min-h-screen bg-background pt-25 pb-15 max-w-7xl w-full mx-auto space-y-10 px-4'>
 
       <div className="space-y-1 py-1">
         <div className="flex items-center gap-1.5 text-[10px] uppercase font-bold tracking-widest text-zinc-400">
@@ -122,10 +122,10 @@ const Contacts = () => {
         </div>
 
         {/* Grid Log of connection cells */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="md:grid grid-cols-1 md:grid-cols-2 gap-4 space-y-6">
 
           {Connection.map((conn) => (
-            <div key={conn.id} className="p-4 border border-zinc-200 rounded-xl bg-white hover:bg-zinc-50/50 transition-colors flex flex-col justify-between">
+            <div key={conn.id} className="p-4 border border-zinc-200 rounded-xl bg-white hover:bg-zinc-50/50 transition-colors flex flex-col md:justify-between">
 
               <div className="space-y-3">
                 <div className="flex items-start justify-between">

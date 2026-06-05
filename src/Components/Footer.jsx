@@ -17,7 +17,7 @@ const Footer = () => {
                     </h1>
                 </div>
             </div>
-            <p className='text-[10px] md:text-sm'>&copy; 2023 My App. All rights reserved.</p>
+            <p className='text-[10px]'>&copy; 2023 My App. All rights reserved.</p>
         </footer>
 
     )

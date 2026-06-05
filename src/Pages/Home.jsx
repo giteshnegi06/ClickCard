@@ -12,7 +12,7 @@ const Home = () => {
   const card = cardDetails
 
   return (
-    <div className='max-w-7xl w-full mx-auto min-h-screen bg-background px-4 pt-25 pb-10 space-y-6'>
+    <div className='max-w-7xl w-full mx-auto min-h-screen bg-background px-4 pt-25 pb-10 space-y-6 '>
 
       <div className="bg-white border border-zinc-250/80 rounded-2xl p-5 md:p-6 shadow-[0_1px_3px_rgba(0,0,0,0.01)] flex flex-col md:flex-row items-center md:items-start justify-between gap-5 relative overflow-hidden">
         {/* Glow effect on background */}
