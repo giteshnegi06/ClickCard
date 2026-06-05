@@ -12,7 +12,7 @@ const Home = () => {
   const card = cardDetails
 
   return (
-    <div className='max-w-7xl w-full mx-auto min-h-screen bg-background px-4 pt-25 pb-10 space-y-6 '>
+    <div className='max-w-7xl w-full mx-auto min-h-screen bg-background px-4 pt-25 pb-15 space-y-6 '>
 
       <div className="bg-white border border-zinc-250/80 rounded-2xl p-5 md:p-6 shadow-[0_1px_3px_rgba(0,0,0,0.01)] flex flex-col md:flex-row items-center md:items-start justify-between gap-5 relative overflow-hidden">
         {/* Glow effect on background */}
@@ -52,17 +52,17 @@ const Home = () => {
         </div>
 
       </div>
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-8 items-start ">
 
           {/* Digital card preview layout (Column 7) */}
           <div className="lg:col-span-7 space-y-3.5">
             <div className="flex items-center justify-between px-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-zinc-500 flex items-center gap-1.5">
+              <span className="text-[10px] md:text-xs font-bold uppercase tracking-wider text-zinc-500 flex items-center gap-1.5">
                 <Smartphone className="w-4 h-4 text-zinc-400" /> Digital Card Cardboard View
               </span>
               <button
                 onClick={() => onNavigate('profile')}
-                className="text-xs font-bold text-zinc-950 hover:underline flex items-center gap-1 cursor-pointer"
+                className="text-[10px] md:text-xs font-bold text-zinc-950 hover:underline flex items-center gap-1 cursor-pointer"
               >
                 Configure Styles <ExternalLink className="w-3 h-3 text-zinc-500" />
               </button>
@@ -102,7 +102,7 @@ const Home = () => {
                   className="w-full h-full object-contain"
                   referrerPolicy="no-referrer"
                 />
-                <div className="hidden absolute inset-0 bg-white/90 backdrop-blur-xs rounded-2xl flex items-center justify-center p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className=" absolute inset-0 bg-white/90 backdrop-blur-xs rounded-2xl flex items-center justify-center p-3 opacity-0 group-hover:opacity-100 transition-opacity">
                   <span className="text-[11px] font-bold text-zinc-900 font-mono">Scan code on physical camera</span>
                 </div>
               </div>
@@ -141,8 +141,8 @@ const Home = () => {
         </div>
 
         {/* 3. QUICK ACTION BUTTONS: Clean Tactile 4-Grid Block */}
-        <div className="space-y-3.5">
-          <span className="text-xs font-bold uppercase tracking-wider text-zinc-500 flex items-center gap-1.5 px-2">
+        <div className="space-y-3.5 mt-4">
+          <span className="text-xs font-bold uppercase tracking-wider text-zinc-500 flex items-center gap-1.5 px-2 ">
             <Sparkles className="w-4 h-4 text-zinc-400" /> Quick Cockpit Operations
           </span>
 
