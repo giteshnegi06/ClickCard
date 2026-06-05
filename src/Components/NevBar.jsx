@@ -33,7 +33,7 @@ const NavBar = () => {
                             setIsLoggedIn(false)
                             navigate('/')
                         }}
-                        className="flex items-center justify-center mx-2 text-secondary rounded-lg">
+                        className="flex items-center justify-center mx-2 bg-zinc-100 p-2 text-secondary rounded-lg">
                         <LogOut className="w-5 h-5" />
                     </button>
                 </div>

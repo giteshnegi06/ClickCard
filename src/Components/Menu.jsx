@@ -16,8 +16,8 @@ const Menu = () => {
 
     return (
         <div>
-            <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 max-w-md w-full mx-auto px-4">
-                <ul className="flex justify-between  bg-zinc-900 px-3 md:px-4 py-2 rounded-3xl shadow-xl">
+            <div className="fixed bottom-10 left-1/2 transform -translate-x-1/2 max-w-md w-80 md:w-full mx-auto px-4 z-50">
+                <ul className="flex justify-between  bg-zinc-900 px-3 md:px-4 py-1 lg:py-2 rounded-3xl shadow-xl">
                     {navItems.map((item) => (
                             
                         <li key={item.path}
@@ -27,7 +27,7 @@ const Menu = () => {
                                 navigate(item.path);
                                 setActiveItem(item.path)
                             }}
-                            className={`flex-col flex items-center justify-center p-3 md:p-4 gap-1 rounded-2xl text-xs font-medium transition-colors duration-200 
+                            className={`flex-col flex items-center justify-center p-3 md:p-4 gap-1 rounded-2xl text-[10px] md:text-xs font-medium transition-colors duration-200 
                                 ${ activeItem === item.path 
                                     ? 'text-primary bg-zinc-800 shadow-sm border border-zinc-700 font-sans' 
                                     : 'text-secondary hover:bg-zinc-800  '

@@ -11,7 +11,7 @@ import Profile from './Pages/Profile'
 
 import NavBar from './Components/NevBar'
 import Menu from './Components/Menu'
-// import Footer from './Components/Footer'
+import Footer from './Components/Footer'
 
 function Layout() {
 
@@ -45,7 +45,7 @@ function Layout() {
 
       {!hideLayout && <Menu />}
 
-      {/* {!hideLayout && <Footer />} */}
+      {!hideLayout && <Footer />}
 
     </div>
   )
