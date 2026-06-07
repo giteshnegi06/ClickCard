@@ -93,7 +93,7 @@ const Home = () => {
             <QrCode className="w-4 h-4 text-zinc-400" /> Direct QR Badge Key
           </span>
 
-          <div className="bg-white border border-zinc-200 rounded-3xl p-6 shadow-[0_1px_3px_rgba(0,0,0,0.01)] text-center flex flex-col justify-between h-full min-h-[460px] space-y-6">
+          <div className="bg-white border border-zinc-200 rounded-3xl p-6 shadow-[0_1px_3px_rgba(0,0,0,0.01)] text-center flex flex-col justify-between h-full min-h-115 space-y-6">
 
             <div className="space-y-1">
               <span className="text-[9px] font-mono font-bold tracking-widest text-zinc-400 block uppercase">INSTANT PAIR OR TRANSFER</span>

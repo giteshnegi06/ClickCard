@@ -82,3 +82,47 @@ export const Connection = [
     tags: ["Tech Talk"]
   }
 ];
+
+
+export const CARD_PRESETS = {
+  cosmic: {
+    preset: 'cosmic',
+    primaryColor: '#6366f1',
+    textColor: '#ffffff',
+    fontFamily: 'font-sans'
+  },
+  minimal: {
+    preset: 'minimal',
+    primaryColor: '#0f172a',
+    textColor: '#0f172a',
+    fontFamily: 'font-sans'
+  },
+  glassmorphism: {
+    preset: 'glassmorphism',
+    primaryColor: '#ec4899',
+    textColor: '#1f2937',
+    fontFamily: 'font-sans'
+  },
+  brutalist: {
+    preset: 'brutalist',
+    primaryColor: '#facc15',
+    textColor: '#000000',
+    fontFamily: 'font-mono'
+  },
+  emerald: {
+    preset: 'emerald',
+    primaryColor: '#059669',
+    textColor: '#ffffff',
+    fontFamily: 'font-serif'
+  }
+};
+
+export const ANALYTICS_DATA = [
+  { date: "May 20", views: 42, connections: 3, clicks: 12 },
+  { date: "May 21", views: 55, connections: 5, clicks: 18 },
+  { date: "May 22", views: 78, connections: 8, clicks: 24 },
+  { date: "May 23", views: 61, connections: 4, clicks: 15 },
+  { date: "May 24", views: 95, connections: 11, clicks: 35 },
+  { date: "May 25", views: 120, connections: 14, clicks: 42 },
+  { date: "May 26", views: 154, connections: 18, clicks: 58 }
+];
