@@ -12,7 +12,7 @@ const Profile = () => {
 
 
   return (
-    <div className='lg:flex justify-between max-w-7xl mx-auto w-full bg-background px-4 pt-20 pb-10 '>
+    <div className='lg:flex justify-between max-w-7xl mx-auto w-full bg-background px-4 lg:mt-10 pt-20 pb-10 '>
       <div className='flex lg:hidden justify-center items-center bg-zinc-100 rounded-xl p-2 mb-6'>
         <button
           onClick={() => setActivetab('customize')}
