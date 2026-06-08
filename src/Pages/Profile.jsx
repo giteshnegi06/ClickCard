@@ -369,7 +369,7 @@ const Profile = () => {
       </div>
 
       {/* Live Mobile Preview */}
-      <div className={`flex-col justify-center items-center text-center sticky top-24 ${activeTab === 'preview' ? 'block' : 'hidden lg:block'}`}>
+      <div className={`flex-col justify-center items-center text-center stickey top-24 ${activeTab === 'preview' ? 'block' : 'hidden lg:block'}`}>
         <h2>
           <Sliders className='w-4 h-4 inline-block mr-2' />
           Live Mobile Preview
@@ -391,10 +391,10 @@ const Profile = () => {
 
             </div>
 
-            <div className=' '>
+            
 
               <CardPrev />
-            </div>
+            
 
           </div>
         </div>
